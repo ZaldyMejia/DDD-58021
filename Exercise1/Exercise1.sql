@@ -1,0 +1,16 @@
+CREATE DATABASE Exercise1;
+CREATE TABLE EMP_1 (
+    EMP_NUM CHAR(3),
+    EMP_Lname VARCHAR(15),
+    EMP_FNAME VARCHAR(15),
+    EMP_INITIAL CHAR(1),
+    EMP_HIREDATE DATE,
+    JOB_CODE CHAR(3)
+);
+
+insert into Emp_1 (EMP_NUM, EMP_Lname, EMP_FNAME, EMP_INITIAL, EMP_HIREDATE, JOB_CODE)
+VALUES ('1', 'Mejia', 'Zaldy', 'A', '2023-12-21', 501);
+insert into Emp_1 (EMP_NUM, EMP_Lname, EMP_FNAME, EMP_INITIAL, EMP_HIREDATE, JOB_CODE)
+VALUES ('2', 'Mejia', 'Zaldy', 'A', '2023-12-21', 502);
+select * from emp_1
+WHERE JOB_CODE = '502';
